@@ -6,7 +6,7 @@ This was built for fun but also to get more comfortable with ASP.NET/Angular. Mo
 The data was grabbed from other API's. I wanted to start this project in a way that makes it easy for others to deploy.
 
 ## Run this app
-Step 1: go to desired folder and type the commands:
+Step 1: open command prompt in desired folder and type the commands:
 ```
 	git clone https://github.com/jaredmt/PetWiki .
 	dotnet run
