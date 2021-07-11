@@ -26,7 +26,7 @@ namespace PetWiki
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors(options => options.AddPolicy(CorsPolicies.myCorsPolicy, builder => {
-                builder.WithOrigins("http://localhost:4200")
+                builder.WithOrigins("http://localhost:4200","http://localhost:8080")
                 .AllowAnyHeader().AllowAnyMethod();
             }));
             services.AddControllersWithViews();
